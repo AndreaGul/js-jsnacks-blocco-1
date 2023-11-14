@@ -17,9 +17,22 @@ const num = [];
 // }
 // console.log(numSum);
 
-let numSum = 0;
-let i = 0;
-while (numSum < 50) {
+// let numSum = 0;
+// let i = 0;
+// while (numSum < 50) {
+//   num[i] = Number(prompt('inseirsci un numero'));
+//   console.log(num[i]);
+
+//   numSum += num[i];
+//   i++;
+// }
+// console.log(numSum);
+
+do {
+  let numSum = 0;
+  let i = 0;
+} while (numSum < 50);
+{
   num[i] = Number(prompt('inseirsci un numero'));
   console.log(num[i]);
 
