@@ -27,16 +27,14 @@ const num = [];
 //   i++;
 // }
 // console.log(numSum);
-
+let numSum = 0;
+let i = 0;
 do {
-  let numSum = 0;
-  let i = 0;
-} while (numSum < 50);
-{
   num[i] = Number(prompt('inseirsci un numero'));
   console.log(num[i]);
 
   numSum += num[i];
   i++;
-}
+} while (numSum < 50);
+
 console.log(numSum);
