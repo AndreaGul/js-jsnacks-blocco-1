@@ -27,6 +27,7 @@ const num = [];
 //   i++;
 // }
 // console.log(numSum);
+
 let numSum = 0;
 let i = 0;
 do {
